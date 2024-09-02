@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+    .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100px;
+    background-color: #333;
+    padding-top: 20px;
+    }
+    .sidebar a {
+    display: block;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    text-align: center;
+    }
+    .sidebar a:hover {
+    background-color: #575757;
+    }
+    .content {
+    margin-left: 220px; /* Same as the width of the sidebar + some extra space */
+    padding: 20px;
+    }
+    h2 {
+    color: #333;
+    }
+    .topper {
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 080px;
+        background-color: #333;
+        padding-top: 20px;
+        padding-right: 30px;
+        }
+    .topper a {
+        display: block;
+        color: white;
+        padding: 15px;
+        text-decoration: none;
+        text-align: center;
+        }
+
+    .topper a:hover {
+    background-color: #575757;
+    }
+    .topper h4 {
+        display: block;
+        color: white;
+        padding: 15px;
+        text-decoration: none;
+        text-align: center;
+        }
+        .contentus {
+            margin-left: 110px; /* Same as the width of the sidebar + some extra space */
+            padding: 20px;
+
+            }
+        
